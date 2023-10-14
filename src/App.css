@@ -1,38 +1,168 @@
-.App {
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "cursive";
+  background-color: #393646;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://png.pngtree.com/background/20210712/original/pngtree-cute-hand-drawn-style-mathematics-education-green-stripes-background-picture-image_1176968.jpg');
+  background-size: cover;
+  animation: slideBackground 60s linear infinite;
+
+}
+
+.quiz-container {
+  background-color: #393646;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 800px;
+  min-height: 550px;
+  margin: 3rem auto;
+  padding: 20px;
+  background-color: #000;
+  overflow: hidden;
+  animation: animateBackground 20s linear infinite;
+}
+
+@keyframes animateBackground {
+  0% {
+    background-color: #ffefdb;
+  }
+
+  25% {
+    background-color: #eed078;
+  }
+
+  50% {
+    background-color: #acd0c2;
+  }
+
+  75% {
+    background-color: #b8c4dc;
+  }
+
+  100% {
+    background-color: #8EACCD;
+  }
+}
+
+
+h1 {
+  margin-top: 2%;
   text-align: center;
+  font-family: cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+span{
+  color: #6D5D6E;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+#question {
+  margin-top: 4%;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: cursive;
+  font-weight: 600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#choices li {
+  list-style: none;
+  margin: 10px 0;
+  background-color: #4F4557;
+  color: black;
+  font-family: cursive;
+  opacity: 0.8;
+  border-radius: 5px;
+  width: 90%;
+  font-size: 1.5rem;
+  padding: 3px  0;
   display: flex;
-  flex-direction: column;
+  justify-content: start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+}
+.f_btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#slide-button{
+  margin-top:4rem ;
+  font-family: cursive;
+  font-weight:900;
+  font-size: large;
+  background-color: #6D5D6E;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 120px;
+  opacity: 0.9;
+}
+input{
+  accent-color: #4F4557;
+  margin: 0 5px;
 }
 
-.App-link {
-  color: #61dafb;
+
+ul{
+
+  margin: auto;  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#next-button {
+  display: block;
+  font-family: cursive;
+  margin: 30px auto;
+  background-color: #6D5D6E;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 120px;
+  opacity: 0.9;
+}
+
+#next-button:hover {
+  background-color: #F4EEE0;
+  scale: 0.9;
+}
+
+#timer-button{
+  margin-top:4rem ;
+  font-family: cursive;
+  font-weight:900;
+  font-size: large;
+  background-color: #6D5D6E;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 120px;
+  opacity: 0.9;
+
+}
+
+
+@media only screen and (max-width: 600px){
+  .quiz-container{
+    width: 80vw;
+    margin: auto;
+  } 
+       
 }
