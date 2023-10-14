@@ -14,7 +14,7 @@ function App() {
           <button id="slide-button">1/10</button>
         </div>
 
-        <h1>Dodging tables <span>BTWEEN</span> 2 to 10 </h1>
+        <h1>Dodging tables <span>BETWEEN</span> 2 to 10 </h1>
         <p id="question">Q{data[0].id}. {data[0].ques} </p>
         <ul id="choices">
           {
@@ -29,5 +29,15 @@ function App() {
     </body>
   );
 }
+
+
+
+
+
+
+
+
+
+
 
 export default App;
