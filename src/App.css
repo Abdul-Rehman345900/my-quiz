@@ -80,7 +80,7 @@ span{
   list-style: none;
   margin: 10px 0;
   background-color: #4F4557;
-  color: black;
+  color:white;
   font-family: cursive;
   opacity: 0.8;
   border-radius: 5px;
@@ -105,7 +105,7 @@ span{
   font-size: large;
   background-color: #6D5D6E;
   border: none;
-  color: black;
+  color: white;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
@@ -129,7 +129,7 @@ ul{
   margin: 30px auto;
   background-color: #6D5D6E;
   border: none;
-  color: black;
+  color: white;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
@@ -138,7 +138,7 @@ ul{
 }
 
 #next-button:hover {
-  background-color: #F4EEE0;
+  background-color: #6D5D6E;
   scale: 0.9;
 }
 
@@ -149,7 +149,7 @@ ul{
   font-size: large;
   background-color: #6D5D6E;
   border: none;
-  color: black;
+  color: white;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
