@@ -162,7 +162,7 @@ ul{
 @media only screen and (max-width: 600px){
   .quiz-container{
     width: 80vw;
-    margin: auto;
+    margin: 1rem auto; 
   } 
        
 }
