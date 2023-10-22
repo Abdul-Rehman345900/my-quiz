@@ -31,7 +31,16 @@ body {
   background-color: #000;
   overflow: hidden;
   animation: animateBackground 20s linear infinite;
+  
 }
+
+.quiz-container h1 {
+  color: black;
+  font-size: 30px;
+ 
+}
+
+
 
 @keyframes animateBackground {
   0% {
@@ -91,8 +100,13 @@ span{
   justify-content: start;
   align-items: center;
 
-
+   
 }
+
+h2 p{
+font-family: cursive;
+}
+
 .f_btns{
   display: flex;
   justify-content: space-between;
@@ -123,7 +137,7 @@ ul{
   margin: auto;  
 }
 
-#next-button {
+.next-button {
   display: block;
   font-family: cursive;
   margin: 30px auto;
@@ -137,7 +151,7 @@ ul{
   opacity: 0.9;
 }
 
-#next-button:hover {
+.next-button:hover {
   background-color: #6D5D6E;
   scale: 0.9;
 }
@@ -157,6 +171,17 @@ ul{
   opacity: 0.9;
 
 }
+.correct{
+  accent-color: green;
+  font-family: "cursive";
+  /* color: green; */
+}
+.inCorrect{
+  accent-color: red;
+  font-family: 'cursive';
+  font-size: larger;
+  /* color: red; */
+}
 
 
 @media only screen and (max-width: 600px){
@@ -165,4 +190,27 @@ ul{
     margin: 2.5rem auto; 
   } 
        
+}
+
+
+
+#my-project {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#h1 {
+  font-size: 24px;
+  color:blue;
+  margin: 0;
+}
+
+#my-project p {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
 }
