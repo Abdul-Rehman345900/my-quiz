@@ -58,7 +58,7 @@ const tryAgain = () => {
     <>
       {result ? (
         <div className="quiz-container">
-        <h1>Result</h1>
+        <h1 className="my1" >Result</h1>
         <p>Total Score : {((correct / allQues.length) * 100)} % </p>
         <p>Correct: { correct } </p>
         <p>InCorrect: { inCorrect } </p>
